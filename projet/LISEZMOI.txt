@@ -1,0 +1,34 @@
+# Projet Initial de Système Embarqué - INF1900
+
+## Auteurs :
+Kim Desroches, Ghadi Falouh, Kimia Foroudian, et Ali Yacoubi
+
+## Équipe 1013: ARTHUR
+
+---
+
+Ce projet permet à notre robot d'accomplir deux épreuves distinctes :
+
+1. **Identifier le coin :**
+   - Lorsque notre robot est placé dans l'un des quatre coins de la carte avec une orientation spécifique, il peut identifier le coin et l'orientation en effectuant les mouvements nécessaires.
+   - Pour démarrer cette épreuve, appuyez simplement sur le bouton interrupteur.
+
+2. **Effectuer un trajet :**
+   - Notre robot est positionné au point (1,1) de la carte et doit se déplacer vers le sud.
+   - L'utilisateur indique ensuite les coordonnées de la destination en utilisant les boutons de validation et de sélection sur le breadboard.
+   - Après la sélection, le robot calcule le chemin le moins coûteux pour atteindre la destination tout en évitant le point où le poteau est placé.
+
+--- 
+
+**Classes importantes :**
+- **game.cpp :** Responsable de l'organisation de la logique du code et de la liaison des différentes parties.
+- **trajectory.cpp :** Trouve le chemin le plus court à l'aide de l'algorithme Dijkstra.
+- **corner.cpp :** Responsable de l'épreuve d'identification du coin.
+- **robot.cpp :** Classe qui regroupe tous les objets différents de notre robot, tels que (DEL, capteurs, écran LCD...).
+
+
+Merci beaucoup 
+
+Équipe 1013
+
+5 décembre 2023
