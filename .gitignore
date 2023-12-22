@@ -1,0 +1,11 @@
+*.o
+*.d
+*.hex
+*.map
+*.elf
+*.a
+
+.vscode/
+/.vscode/*
+c_cpp_properties.json
+settings.json
